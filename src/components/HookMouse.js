@@ -10,7 +10,12 @@ function HookMouse() {
   };
 
   useEffect(() => {
+    console.log("Hook MouseMove Event ");
     window.addEventListener("mousemove", logMousePosition);
+  
+    return() => {
+      window.removeEventListener('mousemove', logMousePosition);
+    }
   });
 
   return (
