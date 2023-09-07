@@ -1,11 +1,11 @@
 
 import './App.css';
-import MouseContainer from './components/MouseContainer';
+import IntervalClassCounter from './components/IntervalClassCounter';
 
 function App() {
   return (
     <div className="App">
-      <MouseContainer></MouseContainer>
+      <IntervalClassCounter></IntervalClassCounter>
     </div>
   );
 }
