@@ -11,7 +11,7 @@ function ComponentF() {
                         <ChannelContext.Consumer>
                         {
                             channel => {
-                                return <div>UserContext : {user}, ChannelContext : {channel}</div>
+                                return <div className=''>UserContext : {user}, ChannelContext : {channel}</div>
                             }
                         }
                         </ChannelContext.Consumer>
